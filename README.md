@@ -1,6 +1,6 @@
 # Styling Guide
 
-Toda a estilização que será usada no projeto dentro do figma. All styling that will be used in the project from Figma.
+All styling that will be used in the Figma project.
 
 [Figma Project Link](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
 
