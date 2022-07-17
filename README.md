@@ -1,10 +1,10 @@
-# Guia de estilos
+# Styling Guide
 
-Toda a estilização que será usada no projeto dentro do figma.
+Toda a estilização que será usada no projeto dentro do figma. All styling that will be used in the project from Figma.
 
-[Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
+[Figma Project Link](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
 
-## Fonte
+## Font
 
 ```html
 Open Sans:
@@ -13,91 +13,91 @@ Open Sans:
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
 ```
 
-## Cores
+## Colors
 
-corpo: `#1D232A`
+body: `#1D232A`
 
-cabeçalho: `#1D232A`
+header: `#1D232A`
 
-cabeçalho mobile: `#15191C`
+header - mobile: `#15191C`
 
-menu lateral: `#15191C`
+sidebar menu: `#15191C`
 
-cartão: `#2C343A`
+card: `#2C343A`
 
-fonte: `#FFFFFF`
+font: `#FFFFFF`
 
-fonte alternativa: `#95999C`
+alternate font: `#95999C`
 
 links: `#0480DC`
 
-botão: `#0480DC`
+button: `#0480DC`
 
-sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
+shadows: `0px 4px 4px rgba(0, 0, 0, 0.16)`
 
-## Ícones
+## Icons
 
-Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fonte no projeto usando `@font-face` e depois utilize os códigos abaixo para exibir o ícone.
+The icons are inside a font file called `icons.ttf`. To use them, first import the font inside the project using `@font-face` and then use the code below to show the icon.
 
 ```css
 @font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
+    font-family: 'icons';
+    src: url(../font/icons.ttf);
 }
 ```
 
-> Cuidado com a localização do arquivo `icones.ttf`
+> Beware the location of the `icons.ttf` file.
 
-Camisas = `\e900`
+Shirts = `\e900`
 
-Carrinho = `\e901`
+Shopping cart = `\e901`
 
-Inicio = `\e902`
+Home = `\e902`
 
-Integrantes = `\e903`
+Members = `\e903`
 
 Menu = `\e904`
 
-Moeda = `\e905`
+Coin = `\e905`
 
-Notificação = `\e906`
+Notification = `\e906`
 
-Pico = `\e908`
+Location = `\e908`
 
-Picos = `\e909`
+Locations = `\e909`
 
-Pinturas = `\e90a`
+Paintings = `\e90a`
 
 Play = `\e90b`
 
-Relogio = `\e90c`
+Clock = `\e90c`
 
-Seta-baixo = `\e90d`
+Down-arrow = `\e90d`
 
 Videos = `\e90e`
 
-Visualizacao = `\e90f`
+Views = `\e90f`
 
-## Espaçamentos
+## Spacing
 
-Espaço interno botão: `8px`
+Spacing inner button: `8px`
 
-Espaço entre elementos do botão: `8px`
+Spacing between button elements: `8px`
 
-Espaço entre elementos: `16px/8px`
+Spacing between elements: `16px/8px`
 
-Espaçamento interno do corpo: `16px`
+Body inner spacing: `16px`
 
-Espaçamento entre o título do cartão de recentes e seus itens: `24px`
+Spacing between recent card title and its items: `24px`
 
-## Tamanhos
+## Sizes
 
-Tamanho do dispositivo mobile: `360px`
+Mobile device size: `360px`
 
-Tamanho do dispositivo desktop: `1440px`
+Desktop device size: `1440px`
 
-Largura máxima do conteúdo principal: `1120px`
+Main content maximum width: `1120px`
 
-Largura máxima de um cartão desktop: `256px`
+Desktop card maximum width: `256px`
 
-Altura mínima de um cartão: `320px`
+Card minimum height: `320px`
