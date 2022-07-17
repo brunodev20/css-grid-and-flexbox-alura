@@ -37,7 +37,7 @@ shadows: `0px 4px 4px rgba(0, 0, 0, 0.16)`
 
 ## Icons
 
-The icons are inside a font file called icons.ttf. To use them, first import the font inside the project using @font-face and then use the code below to show the icon.
+The icons are inside a font file called `icons.ttf`. To use them, first import the font inside the project using `@font-face` and then use the code below to show the icon.
 
 ```css
 @font-face {
@@ -46,7 +46,8 @@ The icons are inside a font file called icons.ttf. To use them, first import the
 }
 ```
 
-> Beware the location of the icons.ttf file.
+
+> Beware the location of the `icons.ttf` file.
 
 Shirts = `\e900`
 
@@ -77,7 +78,6 @@ Down-arrow = `\e90d`
 Videos = `\e90e`
 
 Views = `\e90f`
-
 
 ## Spacing
 
