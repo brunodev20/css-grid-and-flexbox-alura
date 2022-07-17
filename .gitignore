@@ -1,2 +1,2 @@
-#ignoring the "test" folder as it contains a test that's not useful for the project at hand
+#ignoring the "test" folder as it contains a test I ran using Grid that's not useful for the project at hand
 test/
